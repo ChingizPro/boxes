@@ -46,6 +46,15 @@ img {
 .p2 {
     font-size: 19px;
 }
+.btn {
+    font-size: 30px;
+    padding: 10px 30px;
+    border: 5px solid teal;
+    color: teal;
+    border-radius: 10px;
+    background-color: transparent;
+    display: none;
+}
 @media(max-width:1000px){
     .box {
         width: 100%;
@@ -60,5 +69,15 @@ img {
     }
     .big {
         text-align: center;
+    }
+}
+@media(max-width:500px){
+    .btn {
+        display: block;
+    }
+}
+@media(max-width:350px){
+    .btn {
+        display: none;
     }
 }
